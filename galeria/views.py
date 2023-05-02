@@ -5,5 +5,4 @@ def index(request):
 
 def imagem(request):
     return render(request, 'galeria/imagem.html')
-
 # Create your views here.
