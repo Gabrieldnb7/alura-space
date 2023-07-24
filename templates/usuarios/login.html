@@ -1,0 +1,15 @@
+{% extends 'galeria/base.html' %}
+{% load static %}
+{% block content %}
+            <section class="galeria" style="margin-left: 5em">
+                <form action="{% url 'login' %}" method="POST">
+                    {% include 'usuarios/partials/_row.html' %}
+                    </div>
+                    <div class="col-12 text-center">
+                        <button class="btn btn-success col-12" style="padding: top 5px;" type="submit">Entrar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+{% endblock %}
