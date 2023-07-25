@@ -1,6 +1,7 @@
 {% extends 'galeria/base.html' %}
 {% load static %}
 {% block content %}
+    {% include 'usuarios/partials/_bootstrap.html' %}
             <section class="galeria" style="margin-left: 5em">
                 <form action="{% url 'cadastro' %}" method="POST">
                     {% include 'usuarios/partials/_row.html' %}
